@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+.Button{
+    background-color: chartreuse;
+    color: black;
+    display: inline-block;
+    position: relative;
+    padding: 2px 30px;
+    width: 100px;
+    text-align: center;
+   
+}
+.Button:hover .dropdown{
+    display:block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -30px;
+
+}
+.dropdown a{
+    display: block;
+    color: white;
+}
+
+.dropdown .Button a:hover{
+    background-color: rgba(78, 78, 80, 0.26);
+    transition-duration: 1000ms;
+}
+
+.memo p:last-child{
+text-indent: 20px;
+font-size: 10px;
+}
